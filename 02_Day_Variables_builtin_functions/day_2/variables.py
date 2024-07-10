@@ -63,3 +63,14 @@ print(circum_of_circle)
 user = input('Enter the Radius ')
 user_area = pi * int(user) ** 2
 print(user_area)
+
+print('Please enter the following information: ')
+user_first = input('First Name: ')
+user_last = input('Last Name: ')
+user_age = input('Age: ')
+user_country = input('Country: ')
+
+print(user_first)  
+print(user_last)  
+print(int(user_age))  
+print(user_country)
